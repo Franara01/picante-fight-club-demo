@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Login - Torneo Interno</title>
+  <link rel="icon" href="favicon.png.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="logo-nombre">
+      <a href="index.html">
+        <img class="logo" src="https://dcdn-us.mitiendanube.com/stores/511/265/themes/common/logo-1631689754-1594678843-831d2c5da9b0b11cde73b89e3b8f4eb81594678843.png?0" alt="Logo">
+      </a>
+      <h1>PICANTE FIGHT CLUB</h1>
+    </div>
+    <p class="subtitulo">
+      Escuela de Kickboxing, Boxeo, MMA, Muay Thai & Preparación Física
+    </p>
+  </header>
+
+  <main style="max-width: 400px; margin: 40px auto;">
+    <h2>Iniciá sesión</h2>
+    <form id="login-form">
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="password" id="password" placeholder="Contraseña" required />
+      <p style="text-align: right; margin-top: 5px;">
+        <a href="reset-password.html" style="font-size: 0.9rem; color: #c00; text-decoration: none;">¿Olvidaste tu contraseña?</a>
+      </p>
+      <button onclick="history.back()" class="btn-volver">Volver</button>
+      <button type="submit" class="btn">Entrar</button>
+      <p id="login-error" style="color: red; display: none; margin-top: 10px;">
+        Usuario o contraseña incorrectos
+      </p>
+    </form>
+  </main>
+
+  <script type="module" src="login.js"></script>
+
+</body>
+</html>
