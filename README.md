@@ -49,7 +49,7 @@ The demo uses **Supabase** as the backend for authentication (admin/user) and CR
 
 - Role-based login: **Admin** and **User**  
 - Admin can view the full list of registered participants  
-- User can register for an internal tournament  
+- User developed to check different flows 
 - Fully validated registration form  
 - Data is stored in Supabase in real-time  
 
